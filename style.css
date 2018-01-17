@@ -1,0 +1,331 @@
+body {
+    font-family: "GothamPro";
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url("fonts/gothampro.eot");
+    src: url('fonts/gothampro.eot?#iefix') format('embedded-opentype'), url('fonts/gothampro.woff') format('woff'), url('fonts/gothampro.ttf') format('truetype'), url('fonts/gothampro.svg#GothamPro') format('svg');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('fonts/gothampro-bold.eot');
+    src: url('fonts/gothampro-bold.eot?#iefix') format('embedded-opentype'), url('fonts/gothampro-bold.woff') format('woff'), url('fonts/gothampro-bold.ttf') format('truetype'), url('fonts/gothampro-bold.svg#GothamPro') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('fonts/gothampro-light.eot');
+    src: url('fonts/gothampro-light.eot?#iefix') format('embedded-opentype'), url('fonts/gothampro-light.woff') format('woff'), url('fonts/gothampro-light.ttf') format('truetype'), url('fonts/gothampro-light.svg#GothamPro') format('svg');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('fonts/gothampro-medium.eot');
+    src: url('fonts/gothampro-medium.eot?#iefix') format('embedded-opentype'), url('fonts/gothampro-medium.woff') format('woff'), url('fonts/gothampro-medium.ttf') format('truetype'), url('fonts/gothampro-medium.svg#GothamPro') format('svg');
+    font-weight: 500;
+}
+
+.padding-none {
+    padding: initial !important;
+}
+
+
+/* header */
+
+.header-picture {
+    background-image: url(img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-contacts {
+    padding-top: 1.25rem;
+}
+
+.contacts img {
+    padding-right: 0.75rem;
+}
+
+.contacts a {
+    color: #cacccd;
+}
+
+.contacts a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.375rem;
+    font-weight: 700;
+    color: #f4f4f4;
+    margin-top: 6rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #d7d5d6;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header input[type=text],
+header input[type=email] {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 0.1875rem;
+    outline: none;
+    height: 2.625rem;
+    width: 88%;
+    padding: 0 1.0625rem;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+header form {
+    padding-bottom: 9.375rem;
+    padding-top: 2.5rem;
+}
+
+header form a {
+    background-color: rgba(89, 164, 187, 0.9) !important;
+    padding: 0 0.625rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    text-transform: none !important;
+    letter-spacing: 0.0625rem;
+    display: inline-block;
+    height: 2.625rem !important;
+    line-height: 2.625rem !important;
+    border-radius: 0.1875rem;
+    width: 88%;
+}
+
+
+/* service-price */
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #19191a;
+    font-weight: 500;
+    margin: 3.125rem 0;
+}
+
+h4 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #4eb6d7;
+    margin-bottom: 0;
+}
+
+.service-price a,
+.top a {
+    background-color: #4eb6d7 !important;
+    padding: 0 0.625rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    color: #ffffff;
+    text-transform: none !important;
+    letter-spacing: 0.0625rem;
+    display: inline-block;
+    height: 2.625rem !important;
+    line-height: 2.625rem !important;
+    min-width: 9.375rem;
+    border-radius: 0.1875rem;
+}
+
+.service-price p {
+    margin-top: 0.9375rem;
+    margin-bottom: 1.875rem;
+}
+
+.service-price-margin {
+    margin-bottom: 3.75rem;
+}
+
+
+/* top */
+
+.top {
+    background-color: #518092;
+}
+
+.top-container {
+    padding: 4rem 0;
+}
+
+.top .card .card-content {
+    height: 11.875rem;
+    padding-bottom: 0;
+}
+
+.card .card-action {
+    border-top: 0;
+    padding: 0;
+}
+
+.top .card .card-image {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.top .card .price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.875rem;
+}
+
+.top a {
+    margin-bottom: 1.5rem;
+}
+
+/* work */
+
+.work-step {
+    padding: 0 3rem;
+    text-align: left;
+}
+
+
+/* interesting-task */
+
+.interesting-task {
+    background-image: url(img/interesting-task.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.interesting-task h3 {
+    color: #fff;
+    padding-top: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.interesting-task p {
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.8125rem;
+}
+
+.interesting-task-form{
+    padding-bottom: 3.75rem;
+}
+
+.interesting-task input[type=text],
+.interesting-task input[type=email],
+.interesting-task input[type=tel],
+.interesting-task textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 0.1875rem;
+    height: 2.625rem;
+    box-sizing: content-box;
+    font-size: 0.875rem;
+    color: #fff;
+    padding-left: 1.25rem;
+    width: 96%;
+    margin-bottom: 1.0625rem;
+}
+
+.interesting-task input[type=email],
+.interesting-task input[type=tel] {
+    width: 92%;
+}
+
+textarea.materialize-textarea:focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]) {
+    border-bottom: 1px solid #4eb6d7 !important;
+    box-shadow: 0 1px 0 0 #4eb6d7 !important;
+}
+
+.interesting-task textarea {
+    padding-top: 0.75rem;
+}
+
+.interesting-task a {
+    background-color: rgba(89, 164, 187, 0.9) !important;
+    color: #ffffff;
+    font-size: 0.875rem;
+    text-transform: none !important;
+    display: inline-block;
+    height: 2.625rem !important;
+    line-height: 2.625rem !important;
+    border-radius: 0.1875rem;
+    padding: 0 3.125rem;
+    margin-right: 0.3125rem;
+}
+
+.file-field {
+    margin: 0;
+}
+
+.file-field span {
+    text-transform: none !important;
+    font-size: 0.875rem;
+}
+
+.file-field .btn {
+    background-color: transparent !important;
+    font-size: 0.875rem;
+    border: 1px solid #e2e4eb;
+    color: #e2e4eb;
+    height: 2.5625rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #518092;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+footer .contacts {
+    padding: 1rem 0;
+}
+
+footer .rights {
+    background-color: #32505b;
+    font-size: 0.875rem;
+}
+
+footer .rights p {
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.contacts-padding {
+    padding-left: 2.5rem !important;
+}
+
+.contacts-second{
+    padding-left: 2.5rem !important;
+}
+
+/* media */
+
+@media only screen and (max-width: 1300px) {
+    
+    .work-step {
+    padding: 0;
+}
+}
